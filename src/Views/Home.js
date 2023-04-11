@@ -38,6 +38,7 @@ function Home() {
         className="graphicGabi"
       />
       <style jsx="true">{`
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
       .graphicGabi {
         position: absolute;
         bottom: -5rem;
@@ -55,6 +56,8 @@ function Home() {
         font-size: 5em; 
         text-align: left;
         margin-left: 10%; 
+        font-family: 'Share Tech Mono', monospace;
+        color: #0D7658;
       }
       `}</style>
     </section>
