@@ -7,21 +7,20 @@ function Footer() {
         <p>Made by Gabriela Meirelles</p>
       </a>
       <style jsx="true">{`
-        @import url("https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Montserrat:wght@500&display=swap");
+        @import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
         .footer {
-          background-color: #181818;
-          height: 50px;
+          bottom: 0;
+          width: 100%;
+          background-color: #333;
           display: flex;
           align-items: center;
           justify-content: flex-start;
-          font-family: "Montserrat", sans-serif;
-          font-size: 0.8rem;
-          color: #fff;
           padding-left: 1rem;
         }
         .footer a {
           color: #fff;
           text-decoration: none;
+          font-family: "Share Tech Mono", monospace;
         }
       `}</style>
     </div>
